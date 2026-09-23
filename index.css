@@ -77,28 +77,11 @@ section {
     box-shadow: 0 12px 30px rgba(24, 50, 75, 0.12);
 }
 
-section:first-child {
-    min-height: 330px;
-    display: flex;
-    align-items: center;
-    
-    color: var(--black);
-}
-
-section:first-child p {
-    max-width: 680px;
-    margin: 0;
-    font-size: clamp(1.2rem, 2.5vw, 1.7rem);
-}
 
 h2 {
     margin-top: 0;
     color: var(--blue);
     font-size: 2.2rem;
-}
-
-section:last-child p {
-    max-width: 800px;
 }
 
 footer {
