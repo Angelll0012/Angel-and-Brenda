@@ -1,0 +1,102 @@
+
+
+:root {
+    --navy: #18324b;
+    --blue: #3d7894;
+    --cream: #fffaf2;
+    --peach: #f5c7a9;
+    --text: #263746;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: var(--text);
+    background: var(--cream);
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 30px 8%;
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    margin: 0 0 24px;
+    font-size: clamp(2.2rem, 6vw, 4.5rem);
+    line-height: 1.1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+
+nav a {
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--peach);
+}
+
+main {
+    width: min(1050px, 90%);
+    margin: 0 auto;
+   
+}
+
+section {
+    margin: 55px 0;
+    padding: 42px;
+    border-radius: 12px;
+    background: var(--white);
+    box-shadow: 0 12px 30px rgba(24, 50, 75, 0.12);
+}
+
+
+h2 {
+    margin-top: 0;
+    color: var(--blue);
+    font-size: 2.2rem;
+}
+
+footer {
+    padding: 24px;
+    background: var(--navy);
+    color: var(--white);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+    nav {
+        gap: 14px 18px;
+    }
